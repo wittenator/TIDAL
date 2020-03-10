@@ -9,7 +9,7 @@ poetry install
 ```
 and add the kernel by 
 ```
-python -m ipykernel install --user --name tidal --display-name="TIDAL kernel"
+poetry run python -m ipykernel install --user --name tidal --display-name="TIDAL kernel"
 ```
 .
 

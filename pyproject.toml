@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tidal"
+version = "0.1.0"
+description = ""
+authors = ["wittenator <wittenator@yahoo.de>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+jupyterlab = "^2.0"
+mysql-connector-python = "^8.0"
+ipykernel = "^5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

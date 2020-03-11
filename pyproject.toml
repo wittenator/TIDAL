@@ -8,9 +8,10 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.6.1"
 jupyterlab = "^2.0"
-mysql-connector-python = "^8.0"
 ipykernel = "^5.1"
 pandas = "^1.0"
+rpy2 = "^3.2"
+matplotlib = "^3.2"
 
 [tool.poetry.dev-dependencies]
 
